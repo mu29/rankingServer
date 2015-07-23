@@ -1,0 +1,41 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+table {
+    display: inline-block;
+}
+
+table.hovertable {
+    font-family: Helvetica,arial,sans-serif;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+
+table.hovertable th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #a9c6c9;
+    font-size:20px;
+}
+
+table.hovertable tr {
+    background-color:#d4e3e5;
+}
+
+table.hovertable td {
+    border-width: 1px;
+    padding: 12px;
+    border-style: solid;
+    border-color: #a9c6c9;
+    font-size:14px;
+}
+
+a {
+  color: #00B7FF;
+}

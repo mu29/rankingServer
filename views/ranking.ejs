@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ranking information : <%= start %> to <%= Number(start) + Number(limit) %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <table class="hovertable">
+            <tr>
+                <th>name</th>
+                <th>score</th>
+                <th>rank</th>
+            </tr>
+            <% for(var i = 0; i < data.length; i++) { %>
+                <tr>
+                    <td><%= data[i].name %></td>
+                    <td><%= data[i].score %></td>
+                    <td><%= data[i].rank %></td>
+                </tr>
+            <% } %>
+        </table>
+    </body>
+</html>
