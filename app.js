@@ -37,12 +37,12 @@ app.use(function (req, res, next) {
 });
 
 // error handlers
-
+/*
 // exception handler
 process.on('uncaughtException', function (err) {
     console.log('Caught exception: ' + err);
 });
-
+*/
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
